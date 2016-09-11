@@ -4,13 +4,14 @@ This is an unofficial Apache NiFi Docker image. This image is based off of [mkob
 
 ## Running Image
 To try out NiFi on Docker:
+
 1. Pull the `latest` image
 
-    docker pull wesclemens/nifi
+        docker pull wesclemens/nifi
 
 2. Run image and expose the default ports to the host
 
-    docker run -it --rm -p 8080-8081:8080-8081 wesclemens/nifi
+        docker run -it --rm -p 8080-8081:8080-8081 wesclemens/nifi
 
 ## Environment Valuables
 
